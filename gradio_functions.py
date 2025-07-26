@@ -33,7 +33,7 @@ def ai_analyze_comments(client,
     if debug:
         print("Prompt sent to model:\n", prompt)
 
-    messages = [
+    c_messages = [
     {"role": "system",
     "content": 
         "You are an expert linguistic analyst specializing in extracting and scoring themes from customer return comments. "
@@ -46,7 +46,7 @@ def ai_analyze_comments(client,
 
     resp = client.chat.completions.create(
         model=gpt_model,
-        messages=messages,
+        messages=c_messages,
         temperature=0.1,
         max_tokens=15000,
     )

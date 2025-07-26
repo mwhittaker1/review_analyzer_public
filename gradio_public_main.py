@@ -5,7 +5,7 @@ from typing import Optional, Tuple
 import openpyxl
 from dotenv import load_dotenv
 import openai
-
+import gradio_functions as gf
 load_dotenv()
 
 def get_comment(comment: str) -> tuple:
@@ -33,13 +33,16 @@ def main():
     # General workflow
 
     # Collect example comment from user
+    ## get_comment
 
     # Check if comment is valid
+    ## get_comment
 
     # prepare open AI client
+    ## gf.setuo_open_ai
 
     # Send comment to AI client for customer retur analysis
-
+    # ai_analyze_comments
     # Send comment to AI client for Product feedback analysis
 
     # Format response from AI Client
