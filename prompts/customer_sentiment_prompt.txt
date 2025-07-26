@@ -18,8 +18,8 @@ Return your answer as a flat single JSON array of objects, one object per input 
   Sentiment 3      – its score or 0  
   Theme 4,         - satisfaction theme #4 or "" 
   Sentiment 4      – its score or 0    
-  Pos_mean– average of all scores at 4 or 5
-  Neg_mean– average of all scores a 1 or 2
+  Pos_mean– average of only scores at 4 or 5
+  Neg_mean– average of only scores a 1 or 2
   Total_sentiment - average of all scores, ignoring zeroes.
 
 **Sentiment Scoring (assign one integer per theme):**  
@@ -52,29 +52,29 @@ _Do not use 0 or negative numbers, and stick strictly to this 1–5 scale._
     "row_id":"3112",
     "RETURN_COMMENT":"Dress arrived late and felt underdressed at event.",
     "Theme 1":"Late delivery",
-    "Sentiment 1":2.0,
+    "Sentiment 1": 2.0,
     "Theme 2":"Felt underdressed",
-    "Sentiment 2":1.0,
+    "Sentiment 2": 1.0,
     "Theme 3":"",
-    "Sentiment 3":0.0,
+    "Sentiment 3": 0.0,
     "Theme 4":"",
-    "Sentiment 4":0.0,
-    "Pos_mean":0.0,
-    "Neg_mean":1.5,
+    "Sentiment 4": 0.0,
+    "Pos_mean": 0.0,
+    "Neg_mean": 1.5,
     "Total_sentiment": 1.5
   }},
   {{
     "row_id":"2132",
     "RETURN_COMMENT":"Too large but can also see the back ruffles from the front which make you look like you have gills",
     "Theme 1":"you look like have gills",
-    "Sentiment 1":1.0,
+    "Sentiment 1": 1.0,
     "Theme 2":"Too large",
-    "Sentiment 2":3.0,
+    "Sentiment 2": 3.0,
     "Theme 3":"",
-    "Sentiment 3":0.0,
+    "Sentiment 3": 0.0,
     "Theme 4":"",
-    "Sentiment 4":0.0,
-    "Pos_mean":0.0,
-    "Neg_mean":1.0,
+    "Sentiment 4": 0.0,
+    "Pos_mean": 0.0,
+    "Neg_mean": 1.0,
     "Total_sentiment": 2.0 
-    }}]',
+        }}]',

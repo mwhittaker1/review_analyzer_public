@@ -20,8 +20,8 @@ Return your answer as a flat single JSON array of objects, one object per input 
   Sentiment 3      – its score or 0  
   Theme 4,         - satisfaction theme #4 or "" 
   Sentiment 4      – its score or 0   
-  Pos_mean– average of all scores at 4 or 5
-  Neg_mean– average of all scores a 1 or 2
+  Pos_mean– average of only scores at 4 or 5
+  Neg_mean– average of only scores a 1 or 2
   Total_sentiment - average of all scores, ignoring zeroes.
   
 **Sentiment Scoring (assign one integer per theme):**  
@@ -54,13 +54,13 @@ _Do not use 0 or negative numbers, and stick strictly to this 1–5 scale._
     "row_id":"3192",
     "RETURN_COMMENT":"The colors are not as vibrant as photos and the packaging was open when I received it",
     "Theme 1":"Color accuracy",
-    "Sentiment 1":2.0,
+    "Sentiment 1": 2.0,
     "Theme 2":"Packaging damage",
-    "Sentiment 2":1.0,
+    "Sentiment 2": 1.0,
     "Theme 3":"Quality perception",
-    "Sentiment 3":2.0,
+    "Sentiment 3": 2.0,
     "Theme 4":"",
-    "Sentiment 4":0.0,
+    "Sentiment 4": 0.0,
     "Pos_mean": 0.0
     "Neg_mean": 1.66
     "Total_sentiment": 1.66
@@ -69,13 +69,13 @@ _Do not use 0 or negative numbers, and stick strictly to this 1–5 scale._
     "row_id":"3174",
     "RETURN_COMMENT":"LOVELY, but runs EXTREMELY large!",
     "Theme 1":"Positive style",
-    "Sentiment 1":4.0,
+    "Sentiment 1": 4.0,
     "Theme 2":"Oversize fit",
-    "Sentiment 2":2.0,
+    "Sentiment 2": 2.0,
     "Theme 3":"",
-    "Sentiment 3":0.0,
+    "Sentiment 3": 0.0,
     "Theme 4":"",
-    "Sentiment 4":0.0,
+    "Sentiment 4": 0.0,
     "Pos_mean": 4.0
     "Neg_mean": 2.0
     "Total_sentiment": 3.0
